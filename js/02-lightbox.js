@@ -30,9 +30,9 @@ console.log(makeGaleryRows);
 new SimpleLightbox('.gallery a',{
     
     captionDelay: 7250, 
-    navText: ['←','→'],
-    closeText:	'esolC',
-    animationSpeed:	250,
+    //navText: ['←','→'],
+    //closeText:	'esolC',
+    //animationSpeed:	250,
     captionType: 'attr',
     captionPosition:'bottom',
 
