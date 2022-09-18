@@ -1,5 +1,7 @@
 import { galleryItems } from "./gallery-items.js";
 
+console.log(galleryItems);
+
 const galleryElRef = document.querySelector(".gallery");
 
 function makeGalleryMarkup(object) {
@@ -19,7 +21,7 @@ function makeGalleryMarkup(object) {
 }
 galleryElRef.insertAdjacentHTML("beforeend", makeGalleryMarkup(galleryItems));
 
-new SimpleLightbox(".gallery gallery__link", {
+new SimpleLightbox(".gallery__link", {
   captionsData: "alt",
   captionDelay: 250,
 });
